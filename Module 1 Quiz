@@ -1,0 +1,51 @@
+Question 1
+Which of the following are true when it comes to the business value of big data? (Select all that apply.)
+The size of the data businesses collect is growing
+Businesses are increasingly making data-driven decisions
+
+Question 2
+Spark uses...
+A driver node to distribute work across a number of executor nodes
+
+Question 3
+How does Spark execute code backed by DataFrames? (Select all that apply.)
+It separates the "logical plan" of what you want to accomplish from the "physical plan" of how to do it so it can optimize the query
+It optimizes your query by figuring out the best "how" to execute what you want
+
+Question 4
+What are the properties of Spark DataFrames? (Select all that apply.)
+Dataset: Collection of partitioned data
+Distributed: Computed across multiple nodes
+Resilient: Fault-tolerant
+
+Question 5
+What is the difference between Spark and database technologies? (Select all that apply.)
+Spark is a computation engine and is not for data storage
+Spark is a highly optimized compute engine and is not a database
+
+Question 6
+What is Amdahl's law of scalability? (Select all that apply.)
+A formula that gives the theoretical speedup as a function of the percentage of a computation that can be parallelized
+
+Question 7
+Spark offers a unified approach to analytics. What does this include? (Select all that apply.)
+Spark unifies applications such as SQL queries, streaming, and machine learning
+Spark code can be written in the following languages: SQL, Scala, Java, Python, and R
+Spark allows analysts, data scientists, and data engineers to all use the same core technology
+
+Question 8
+What is a Databricks notebook?
+A collaborative, interactive workspace that allows you to execute Spark queries at scale
+
+Question 9
+How can you get data into Databricks? (Select all that apply.)
+By registering the data as a table
+By "mounting" data backed by cloud storage
+By uploading it through the user interface
+
+Question 10
+What are the qualities of big data? (Select all that apply.)
+Variety: the diversity of data
+Veracity: the reliability of data
+Volume: the amount of data
+Velocity: the speed of data
