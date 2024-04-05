@@ -1,0 +1,53 @@
+Question 1
+What are the different units of parallelism? (Select all that apply.)
+Task
+Executor
+Core
+Partition
+
+Question 2
+What is a partition?
+A portion of a large distributed set of data, Data distributed across the cluster is divided into different partitions.
+
+
+Question 3
+What is the difference between in-memory computing and other technologies? (Select all that apply.)
+
+In-memory operations were not realistic in older technologies when memory was more expensive
+Computation not done in-memory (such as Hadoop) reads and writes from disk in between each step
+In-memory operates from RAM while other technologies operate from disk
+
+
+Question 4
+Why is caching important?
+It stores data on the cluster to improve query performance, By storing data we know we'll see again, caching improves query performance.
+
+Question 5
+Which of the following is a wide transformation? (Select all that apply.)
+GROUP BY
+ORDER BY
+
+Question 6
+Broadcast joins...
+Transfer the smaller of two tables to the larger, minimizing data transfer
+
+
+Question 7
+Adaptive Query Execution uses runtime statistics to:
+Dynamically optimize skew joins
+Dynamically coalesce shuffle partitions
+Dynamically switch join strategies
+
+Question 8
+Which of the following are bottlenecks you can detect with the Spark UI? (Select all that apply.)
+Shuffle writes
+Data Skew
+Shuffle reads
+
+Question 9
+What is a stage boundary?
+When all of the slots or available units of processing have to sync with one another
+
+Question 10
+What happens when Spark code is executed in local mode?
+The executor and driver are on the same machine
