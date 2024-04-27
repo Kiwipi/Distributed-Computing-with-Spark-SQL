@@ -31,4 +31,16 @@ Now let's populate newTable with some of the rows from the fireCallsJSON table y
     FROM fireCallsJSON
     WHERE `Final Priority` = 3;
 
+    SELECT * FROM newTable;
+
+Question 2
+**How many rows are in newTable? **
     SELECT count(*) FROM newTable;
+
+
+Question 3
+What is the "Battalion" of the first entry in the sorted table?
+    SELECT * FROM newTable
+    ORDER BY Battalion ASC
+
+B01
