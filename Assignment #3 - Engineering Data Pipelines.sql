@@ -36,7 +36,7 @@ Now let's populate newTable with some of the rows from the fireCallsJSON table y
 Question 2
 **How many rows are in newTable? **
     SELECT count(*) FROM newTable;
-
+191039
 
 Question 3
 What is the "Battalion" of the first entry in the sorted table?
@@ -61,4 +61,26 @@ Slower
 
 Question 5
 Does the data stored within the table still exist at the original location (dbfs:/tmp/newTableLoc) after you dropped the table? (Answer "yes" or "no")
+YES
+
+
+----------------------------------------------------
+Question 1
+What type of table is "newTable"?
+EXTERNAL 
+        
+Question 2
+How many rows are in "newTable"?
+191039
+
+Question 3
+What is the "Battalion" of the first entry in the sorted table?
+B01
+
+Question 4
+Was this query faster or slower on the table with increased partitions?
+SLOWER
+
+Question 5
+Does the data stored within the table still exist at the original location ('dbfs:/tmp/newTableLoc') after you dropped the table?
 YES
