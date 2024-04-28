@@ -42,5 +42,23 @@ Question 3
 What is the "Battalion" of the first entry in the sorted table?
     SELECT * FROM newTable
     ORDER BY Battalion ASC
-
 B01
+
+
+Let's try increasing the number of partitions to 256. Create this as a new table and call it newTablePartitioned
+    CREATE OR REPLACE TEMPORARY VIEW newTablePartitioned
+    AS 
+    SELECT /** REPARTITION(256) */*
+    FROM newTable
+
+Now let's take a look at how this new table is stored.
+    DESCRIBE EXTENDED newTablePartitioned
+
+Question 4
+Was this query faster or slower on the table with increased partitions?
+Slower
+
+
+Question 5
+Does the data stored within the table still exist at the original location (dbfs:/tmp/newTableLoc) after you dropped the table? (Answer "yes" or "no")
+YES
