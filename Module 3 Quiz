@@ -4,13 +4,16 @@ EXTERNAL
         
 Question 2
 How many rows are in "newTable"?
-382078
+191039
 
 Question 3
 What is the "Battalion" of the first entry in the sorted table?
+B01
 
 Question 4
 Was this query faster or slower on the table with increased partitions?
+SLOWER
 
 Question 5
 Does the data stored within the table still exist at the original location ('dbfs:/tmp/newTableLoc') after you dropped the table?
+YES
