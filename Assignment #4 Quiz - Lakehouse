@@ -40,7 +40,7 @@ Travel back in time to the earliest version of the Delta table (version 0). How 
     SELECT COUNT(*)
     FROM firecallspartitioned
       VERSION AS OF 0
-
+417419
 
 Provide your answers to the following questions:
 
