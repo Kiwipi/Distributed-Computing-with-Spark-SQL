@@ -31,12 +31,21 @@ There are quite a few missing Call_Type_Group values. Use the UPDATE command to 
 After you replace the null values, how many Non Life-threatening call types are there?
     
     UPDATE firecallspartitioned
-    SET Call_Type = 'Non Life-threatening'
-    WHERE Call_Type IS NULL; 
-0 ROWS
+    SET Call_Type_Group = 'Non Life-threatening'
+    WHERE Call_Type_Group IS NULL; 
+302506 ROWS
 
 Question 5
 Travel back in time to the earliest version of the Delta table (version 0). How many records were there?
     SELECT COUNT(*)
     FROM firecallspartitioned
       VERSION AS OF 0
+
+
+Provide your answers to the following questions:
+
+How can Apache Spark fit into a data application? Include specific Spark functionalities that can be applied in a data application.
+
+Why is parallelism important and how does Spark parallelize tasks? Provide at least two specific examples for each.
+
+What is a DataFrame in Spark and how is it different from a SQL table? Provide at least two specific examples for each.
