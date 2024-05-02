@@ -1,0 +1,59 @@
+Question 1
+What are the ACID properties?
+Atomicity, Consistency, Isolation, and Durability
+
+
+Question 2
+Which of the following are true statements about data warehouses? (Select all that apply.)
+They provide the structure needed for BI applications
+They use closed protocols and proprietary software
+
+
+Question 3
+Which of these features does Delta Lake support?  (Select all that apply.)
+Delete
+Schema Evolution
+Time Travel
+
+Question 4
+Which of the following are true statements about data lakes? (Select all that apply.)
+They enable machine learning workloads
+They have a high degree of flexibility
+
+
+Question 5
+Which of the following are valid data models? (Select all that apply.)
+Query-oriented
+Star
+Relational
+
+
+Question 6
+What are the benefits a lakehouse architecture provides?
+Combine scalability and low-cost storage of data lakes with the speed and ACID transactional guarantees of data warehouses
+
+
+Question 7
+Machine learning is suited to solve which of the following tasks? (Select all that apply.)
+Financial Forecasting
+Fraud Detection
+Churn Analysis
+Image Recognition
+A/B Testing
+Natural Language Processing
+
+Question 8
+What is Machine Learning? (Select all that apply.)
+Learning patterns in your data without being explicitly programmed
+A function that maps features to an output
+
+
+Question 9
+(Fill in the blanks with the appropriate answer below.)
+Predicting whether a website user is fraudulent or not is an example of _________ machine learning. It is a __________ task.
+supervised, classification
+
+
+Question 10
+Linear regression is one algorithm used for machine learning. What is this algorithm learning?
+It learns the line of best fit through the data
